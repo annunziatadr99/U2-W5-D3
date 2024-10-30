@@ -1,0 +1,20 @@
+article {
+  background-color: #fbf7e3;
+  display: flex;
+  flex-wrap: wrap;
+  color: #742305;
+  border-radius: 25px;
+
+  padding: 20px;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  flex: 1 1 500px;
+  overflow: hidden;
+  object-fit: cover;
+}
+article .testoarticolo {
+  line-height: 1.7;
+  flex: 1 1 400px;
+}
